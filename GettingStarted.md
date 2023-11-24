@@ -9,7 +9,7 @@ The toolbox is composed of 4 libraries:
 - Clustering.py : This file contains the algorithms employed in the pipeline and is programmed to show the results of the selected algorithm
 - Processing.py : This file has smoothing functions as well as filtering algorithms to clean the data
 
-Below, we will go through each toolbox in detail:
+Below, we will go through each toolbox in detail.
 
 ## func_for_clustering
 
