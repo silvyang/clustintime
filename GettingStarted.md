@@ -11,7 +11,7 @@ The toolbox is composed of 4 libraries:
 
 Below, we will go through each toolbox in detail:
 
-**func_for_clustering**
+## func_for_clustering
 
 The required arguments for this functions are:
 
@@ -36,7 +36,7 @@ Optional arguments are:
 
 By default this library executes the pipeline with no processing and applies the infomap algorithm with a threshold of the 90th percentile
 
-**Visualization**
+## Visualization
 
 This library is composed of several functions for visualization.
 
@@ -47,7 +47,7 @@ This library is composed of several functions for visualization.
 - plot_two_maps: plots the comparison of the original correlation map vs the one after preprocessing
 - Dyn: saves a DyNeuSR html of the results
 
-**Clustering**
+## Clustering
 
 This library contains the necessary functions to carry out the clustering operations:
 
@@ -56,7 +56,7 @@ This library contains the necessary functions to carry out the clustering operat
 - K_Means: KMeans algorithm with display of results
 - Info_Map: InfoMap algorithm with display of results
 
-**Processing**
+## Processing
 
 This library is employed by the main pipeline to apply filters in the data:
 
