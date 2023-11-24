@@ -1,9 +1,7 @@
 # Input
-
 The inputs are the parameters or arguments that you can pass to the function.
 
 ## Configuration Options and Parameters:
-
 - data_paths (str or path, required): A list of paths to the data files that the function will use for clustering.
 - mask_path (str or path, required): The path to a mask file, which likely represents a region of interest in the data.
 - component (str, optional, default="whole"): Specifies which component of the data to use for clustering. It might refer to specific features or channels in the data. The options are `whole`, `positive`, `negative`.
@@ -27,8 +25,7 @@ The inputs are the parameters or arguments that you can pass to the function.
 - generate_dyneusr_graph (bool, optional, default=False): Whether to generate a graph using DyNeUsR.
 - title (str, optional): Title for the plot or output.
 
-## How to Use:
-
+## How to Use
 Example usage:
 `````
 clustintime(
